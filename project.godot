@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="LunchboxLand"
+config/name="Lunchbox Land"
 config/description="An online virtual hangout built in Godot 4. This is a work in progress sandbox open to the community to help us build better multiplayer games. "
 config/features=PackedStringArray("4.4", "C#", "Forward Plus")
 config/icon="res://icon.svg"
@@ -18,6 +18,11 @@ config/icon="res://icon.svg"
 [autoload]
 
 ApplicationManager="*res://core/ApplicationManager.cs"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 
 [dotnet]
 
